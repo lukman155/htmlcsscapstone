@@ -1,208 +1,407 @@
 body {
     font-family: 'lato', sans-serif;
     color: #272a31;
-}
-.container-fluid {
-  
-}
-.intro-main {
-    background-image: url("images/main-background.svg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: contain;
-    background-position: center center;
-}
-
-.orange {
-    color: #ec5242;
-}
-
-.ash {
-    color: #d3d3d3;
-}
-
-.grey-bg {
-    background-color: #F5F5F5;
-}
-
-.text {
-    color: black;
-    background-color: #f5f5f5;
-    mix-blend-mode:screen;
     margin: 0;
-  }
-
-  .flex-column {display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .program-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  padding-top: 50px;
-  background-color: #272a31;
-  background-image: url('./images/program-background.svg');
-  }
-
-  .program-hd3 {
-    color: #fff;
-  }
-
-  .underline {
-    width: 50px;
-    height: .5px;
-    background-color: #ec5242;
-    color: #ec5242;
-    margin-top: 5px;
-    margin-bottom: 30px;
-  }
-.card-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  gap: 20px;
-}
-.card {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 40px 30px;
-  background-color: rgba(255, 255, 255, 0.068);
 }
 
-.card > * {
-  flex-shrink: 1;
-  flex-grow: 0;
-  font-size: 0.8rem;
-}
 
-.card-icon {
-  width: 20px;
-  height: auto;
-  flex-basis: 10%;
-
-}
-
-.card-title {
-  margin: 0;
-  padding: 0;
-  font-weight: 700;
-  color: #ec5242;
-  flex-basis: 20%;
-
-}
-.card-text {
-  color: white;
-  flex-basis: 60%;
-}
-
-.program-btn {
-  margin: 50px;
-  color: #fff;
-  background-color: #ec5242;
-  border: none;
-  padding: 20px 30px;
-}
-.speaker-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  gap: 20px;
-  background-color: rgba(255, 255, 255, 0.068);
-}
-.speaker-img-container {
-    position: relative;
-    top: 0;
-    left: 0;
-}
-  .speaker-img {
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    object-fit: cover;
-    width: 100px;
-    height: 100px;
-  }
-  .image-bg {
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    z-index: 1;
-    object-fit: cover;
-    width: 75px;
-    height: 70px;
-    
-  }
-  .speaker-card-body {
-    font-size: 0.7em;
-  }
- 
-
-.speaker-card-title {
-  font-weight: 900;
-}
-.speaker-subtitle {
-  color: #ec5242;
-}
-.speaker-line {
-  width: 20px;
-  height: .1px;
-  background-color: #272a31;
-  color: #272a31;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-align: left;
-  margin-left: 0;
-}
-a {
-  text-decoration: none;
-}
-.more-link {
-  text-align: center;
-  margin: 20px;
-  border: 1px solid #272a31;
-  color: #272a31;
-  width: 80%;
-  padding: 2vw 0; 
-}
-.fa {
-  color: #ec5242;
-}
-.more-link:hover {
-  text-decoration: none;
-}
-
-  .overlay {
-    mix-blend-mode:multiply;
-  }
-  .fire.backdrop {
-    background-image: url(https://66.media.tumblr.com/e454398961e0203f2aad001cf7d177bf/tumblr_mrztj7GFJA1sdyj9lo1_1280.jpg);
-  }
-  .fire.overlay{
-    background-color: rgba(255,0,0,.1);
-  }
-
-
+/*############## End Styling for Footer ###############*/
+/*##### ###### ##### ##### END Styling for About Page ##### ##### ##### ##### #####*/
 
 
 @media (min-width: 300px) {
+
+  .header-desktop {
+    display: none;
+  }
     .custom-gap {
         gap: 10px;
     }
+    .intro-main {
+      background-image: url("images/main-bg.svg");
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: contain;
+      background-position: center center;
+  }
+  
+  .orange {
+    color: #ec5242;
+    font-stretch: ultra-expanded;
+    font-size: 30px;
+  }
+  .header-logo {
+    width: 80px;
+  }
+  .ash {
+      color: #d3d3d3;
+  }
+  
+  .grey-bg {
+      background-color: #F5F5F5;
+  }
+  
+  .text {
+      font-weight: 900;
+      color: black;
+      background-color: #f5f5f5;
+      mix-blend-mode:screen;
+      margin: 0;
+      font-size: 50px;
+    }
+  
+    .flex-column {display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .program-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #272a31;
+    background-image: url('./images/program-background.svg');
+    }
+  
+    .program-hd3 {
+      color: #fff;
+    }
+  
+    .underline {
+      width: 50px;
+      height: .5px;
+      background-color: #ec5242;
+      color: #ec5242;
+      margin-top: 5px;
+      margin-bottom: 30px;
+    }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  .card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px 30px;
+    background-color: rgba(255, 255, 255, 0.068);
+  }
+  
+  .card > * {
+    flex-shrink: 1;
+    flex-grow: 0;
+    font-size: 0.8rem;
+  }
+  
+  .card-icon {
+    width: 20px;
+    height: auto;
+    flex-basis: 10%;
+  
+  }
+  
+  .card-title {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    color: #ec5242;
+    flex-basis: 20%;
+  
+  }
+  .card-text {
+    color: white;
+    flex-basis: 60%;
+  }
+  
+  .program-btn {
+    margin: 50px;
+    color: #fff;
+    background-color: #ec5242;
+    border: none;
+    padding: 20px 30px;
+  }
+/*############ End of Program Section############*/
+
+/*############ Start of Speaker Section############*/
+
+  .speaker-container {
+  display: grid;
+  }
+  
+  .speaker-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.068);
+  }
+  .speaker-img-container {
+      position: relative;
+      top: 0;
+      left: 0;
+  }
+    .speaker-img {
+      position: relative;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      object-fit: cover;
+      width: 100px;
+      height: 100px;
+    }
+    .image-bg {
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      z-index: 1;
+      object-fit: cover;
+      width: 75px;
+      height: 70px;
+      
+    }
+    .speaker-card-body {
+      font-size: 0.7em;
+    }
+   
+  
+  .speaker-card-title {
+    font-weight: 900;
+  }
+  .speaker-subtitle {
+    color: #ec5242;
+  }
+  .speaker-line {
+    width: 20px;
+    height: .1px;
+    background-color: #272a31;
+    color: #272a31;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 0;
+  }
+  a {
+    text-decoration: none;
+  }
+  .more-link {
+    text-align: center;
+    margin: 20px;
+    border: 1px solid #272a31;
+    color: #272a31;
+    width: 80%;
+    padding: 2vw 0; 
+  }
+  .fa {
+    color: #ec5242;
+  }
+  .more-link:hover {
+    text-decoration: none;
+  }
+  
+    .overlay {
+      mix-blend-mode:multiply;
+    }
+    .fire.backdrop {
+      background-image: url(https://66.media.tumblr.com/e454398961e0203f2aad001cf7d177bf/tumblr_mrztj7GFJA1sdyj9lo1_1280.jpg);
+    }
+    .fire.overlay{
+      background-color: rgba(255,0,0,.1);
+    }
+  
+  /*##### ###### ##### ##### START Styling for About Page ##### ##### ##### ##### #####*/
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .about {
+    background-color: #d3d3d3;
+    background-image: url('./images/main-bg.svg');
+  }
+  .about-uptext {
+    color: #ec5242;
+    text-align: center;
+    font-weight: 300;
+  }
+  .about-text {
+    color: #ec5242;
+    text-align: center;
+    font-weight: 900;
+  }
+  .about-subtext {
+    border: 1px solid #d3d3d3;
+    background-color: white;
+    padding: 20px 10px ;
+    text-align: center;
+  }
+  
+  .about > p, a {
+    line-height: 36px;
+    text-align: center;
+    margin: 18px;
+  }
+  .about > a {
+    margin-bottom: 100px;
+  }
+  
+  /*############## Start Styling for logo ###############*/
+  .logo {
+    text-align: center;
+    width: 60%;
+  
+  }
+  .submit-logo {
+    border: 1px solid #d3d3d3;
+    width: 80%;
+    height: 200px;
+    margin-bottom: 50px;
+  }
+  /*############## End Styling for logo ###############*/
+  
+  /*############## Start Styling for Summit ###############*/
+  .summit {
+    border-top: 1px solid #d3d3d3;
+    text-align: center;
+  }
+  
+  .summit-img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    z-index: -1;
+    
+  }
+  .past-summits-1 {
+    color: white;
+    position: relative;
+    line-height: 40px;
+    
+  }
+  
+  .centered {
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .title {
+    font-size: 1.5em;
+    font-weight: 900;
+  }
+  
+  /*############## End Styling for Summit ###############*/
+  /*############## Start Styling for Partners ###############*/
+  .partner.container {
+    background-color: #272a31;
+    padding: 0px;
+  }
+  
+  .part {
+    color: #F5F5F5;
+  }
+  .partners-logos{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .un {border-color: #ec5242;}
+  .partners-logos > * {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  /*############## End Styling for Partners ###############*/
+  /*############## Start Styling for Footer ###############*/
+  .footer {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: #272a31c2;
+    margin: 0;
+    padding: 0;
+  }
+  .footer-img {
+    width: 100px
+  }
 }
 
 @media (min-width: 786px) {
-    
+    .header-mobile{
+      display: none;
+    }
+    .top-header-desktop{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin: 0px;
+      padding: 20px;
+      height: 20px;
+      background-color: #272a31;
+
+      
+    }
+    .top-header-desktop > a {
+      margin: 0;
+      padding: 0 5px;
+      color: #F5F5F5;
+    }
+
+    .header-desktop, .header-links{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #F5F5F5;
+    }
+    .header-links{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .header-links > * {
+      margin: 0;
+    }
+    .header-logo {
+      padding: 20px
+    }
+  .main-container{
+    align-items: flex-start;
+  }
+
+  /*############# Start of Program Section #############*/
+.card-container {
+  display: flex;
+  flex-direction: row;
+}
+.card {
+ flex-direction: column;
+ width: 200px;
+}
+.program-btn {
+  display: none;
+}
+.program-link {
+  color: #F5F5F5;
+  text-decoration: underline;
+}
+
 }

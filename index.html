@@ -15,26 +15,42 @@
 </head>
 <body>
     <main class="intro-main">
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">About</a>
-                <a class="nav-item nav-link" href="#">Join</a>
-                <a class="nav-item nav-link" href="#">Sponsor</a>
-                <a class="nav-item nav-link" href="#">News</a>    
-                <a class="nav-item nav-link disabled" href="#">Disabled</a>
-              </div>
-            </div>
-          </nav>
-    </header>
+        <header>
+            <nav class="header-mobile navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">About</a>
+                    <a class="nav-item nav-link" href="#">Join</a>
+                    <a class="nav-item nav-link" href="#">Sponsor</a>
+                    <a class="nav-item nav-link" href="#">News</a>    
+                     </div>
+                </div>
+              </nav>  
+<nav class="top-header-desktop">
+    <a href=""><i style="font-size:16px" class="fa">&#xf082;</i></a>
+    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="">English</a>
+    <a href="">My Page</a>
+    <a href="">Logout</a>
+</nav>
+                <nav class="header-desktop">
+                    <a href="#" target="_blank" rel="noopener noreferrer"><img class='header-logo' src="./images/logo-img.png" alt="logo"></a>
+                    <div class="header-links">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">About</a>
+                    <a class="nav-item nav-link" href="#">Join</a>
+                    <a class="nav-item nav-link" href="#">Sponsor</a>
+                    <a class="nav-item nav-link" href="#">News</a>    
+                    </div>
+                </nav>
+        </header>
 
     
-        <div class="container-fluid d-flex flex-column">
+        <div class="main-container container-fluid d-flex flex-column">
             <p class="orange">"Hello! Sharing world"</p>
             <div class="backdrop fire">
             <h1 class="orange bolder fire text">CREATIVE COMMONS GLOBAL SUMMIT 2023</h1>
@@ -66,12 +82,14 @@
             </div>
         </div>
         <button class="btn btn-primary program-btn">Join CC Global Summit 2023</button>
+        <a class="program-link" href="">SEE THE WHOLE PROGRAM</a> 
     </section>
 
     <article>
         <div class="container-fluid grey-bg flex-column">
             <h2>Featured Speakers</h2>
             <hr class="underline">
+            <div class="speaker-container">
             <div class="speaker-card">
                 <div class="speaker-img-container">
                     <img class="image-bg" src="./images/img-bg.jpg" alt="a grid">
@@ -84,6 +102,7 @@
                     <p class="speaker-card-text">He’s the protagonist of #HoodDocumentary, a parody of urban-culture documentaries.</p>
                 </div>
             </div>
+        </div>
     
             
             <a class="more-link" href="#" target="_blank" rel="noopener noreferrer">
