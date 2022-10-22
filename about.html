@@ -15,34 +15,36 @@
 </head>
 <body>
     <main class="about container">
-        <header>
+        <div>
+        <header class="header-about">
             <nav class="header-mobile navbar navbar-expand-lg navbar-light bg-light">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">About</a>
+                    <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="./about.html">About</a>
                     <a class="nav-item nav-link" href="#">Join</a>
                     <a class="nav-item nav-link" href="#">Sponsor</a>
                     <a class="nav-item nav-link" href="#">News</a>    
-                    <a class="nav-item nav-link disabled" href="#">Disabled</a>
-                  </div>
+                     </div>
                 </div>
               </nav>  
 
-              <nav class="header-desktop navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">About</a>
+                <nav class="header-desktop">
+                    <a href="#" target="_blank" rel="noopener noreferrer"><img class='header-logo' src="./images/logo-img.png" alt="logo"></a>
+                    <div class="header-links">
+                    <a class="nav-item nav-link active" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="./about.html">About</a>
                     <a class="nav-item nav-link" href="#">Join</a>
                     <a class="nav-item nav-link" href="#">Sponsor</a>
-                    <a class="nav-item nav-link" href="#">News</a>    
-                    <a class="nav-item nav-link disabled" href="#">Disabled</a>
-              </nav>
+                    <a class="highlight-border nav-item nav-link" href="#">News</a>    
+                    </div>
+                </nav>
         </header>
         <h2 class="about-uptext">"Hello! Sharing world"</h2>
-        <h1 class="about-text">CREATIVE COMMONS GLOBAL SUMMIT 2023</h1>
+        <h1 class="about-text">CREATIVE COMICS GLOBAL SUMMIT 2023</h1>
         <p class="about-subtext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel esse tempora repellendus beatae doloremque velit. Maxime, doloremque? Porro saepe, ex vero deleniti beatae ipsum assumenda suscipit sint et quis voluptas?</p>
         <p>Please contact us per Email for any further questions
         about CC Global Summit 2023</p>
@@ -51,7 +53,7 @@
     </main>
 
     <section class="logo container">
-        <h2>Creative Commons Global Summit 2023 Logo</h2>
+        <h2>Creative Comics Global Summit 2023 Logo</h2>
         <hr class="underline">
         <p>The logo of CC Global Summit 2023 was decided through the logo competition from the Stakeholders</p>
         <img class='submit-logo' src="./images/logo-img.png" alt="">
@@ -60,7 +62,8 @@
         <h2>See the past CC Global Summit</h2>
         <hr class="underline">
         <p>Take a look at the last two CC Global Summits which took place in 2020 and 2019</p>
-        <div class="past-summits">
+        
+        <div class="past-summits summit-container">
             <div class="past-summits-1">
                 <div class="color-overlay"><a href="http://" target="_blank" rel="noopener noreferrer"><img class="summit-img" src="./images/summit-img1.jpg" alt="">
                 <p class="centered"><span class="title">2022</span><br>Global Summit 2022 in Mexico</p>
