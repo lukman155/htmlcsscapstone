@@ -30,7 +30,7 @@ const artists = [
     catchPhrase: 'Lorem ipsum dolor sit amet cons  adipisicing elit',
     description: 'Lorem ipsum dolor, sit amet cons adipisicing elit. Unde delectus consectetur ips',
   },
-  { 
+  {
     picture: './images/speaker-6.jpg',
     name: 'Paw Paw',
     catchPhrase: 'Lorem ipsum dolor sit amet cons  adipisicing elit',
