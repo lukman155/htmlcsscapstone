@@ -6,9 +6,7 @@
 
 ## Project Details
 
-In this [project](https://lukman155.github.io/microverse_portfolio/), I set up, designed and deployed a personal portfolio website from a figma template. 
-The goal here is to Understand how to parse a Figma design to create a UI..
-I will use these techniques in all Microverse projects and most likely in my future job as well, so it is important to know them!
+> This is a project created using HTML, CSS and JavaScript to show my knowledge of them.
 
 ## Built With
 
@@ -37,6 +35,16 @@ build the first required sections of the website using the template you chose in
 - A terminal
 - A web browser to view output
 - An IDE e.g Visual studio code
+
+### Video link
+
+[Loom video link](https://www.loom.com/share/4bbc33d08845434ebc6e6ac9ab6be38d)
+
+
+### Live Demo
+
+[Live Demo Link](https://lukman155.github.io/htmlcsscapstone/)
+
 
 ### Setup
 
